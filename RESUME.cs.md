@@ -1,5 +1,5 @@
 ---
-schema_version: 3
+schema_version: 4
 type: other
 file_count: 3
 delete_recommendation_percent: 60
@@ -18,3 +18,9 @@ Repo pro GitHub Pages uživatele sunamo. Jediný obsah je index.html, který pom
 Staženo z GitHubu: **ne** — vlastní GitHub Pages repo s pár řádky HTML redirectu.
 
 - Ověřeno: index.html přečten celý (meta refresh na sunamo.cz); remote je vlastní git@github.com:sunamo/sunamo.github.io.git, nejde o fork; autor sunamo / radek.jancik@sunamo.cz.
+
+## Doporučení ke smazání
+
+Doporučení ke smazání: **60 %** — repo jen rezervuje doménu GitHub Pages a přesměrovává na sunamo.cz.
+- Jediný obsah je index.html s meta refresh na http://sunamo.cz.
+- Funkční účel (přesměrování) existuje, proto nižší hodnota než u prázdných repo; je to výjimka z pravidla o GitHubu, o smazání rozhoduje uživatel.
