@@ -1,5 +1,5 @@
 ---
-schema_version: 4
+schema_version: 5
 type: other
 file_count: 3
 delete_recommendation_percent: 60
@@ -7,6 +7,9 @@ generated_date: 2026-09-30
 generated_time: 16:04:00
 github_origin: no
 github_source_url:
+first_commit_date: 2014-12-25
+last_commit_date: 2023-04-15
+commit_count: 5
 ---
 
 ## Description
@@ -24,3 +27,11 @@ Staženo z GitHubu: **ne** — vlastní GitHub Pages repo s pár řádky HTML re
 Doporučení ke smazání: **60 %** — repo jen rezervuje doménu GitHub Pages a přesměrovává na sunamo.cz.
 - Jediný obsah je index.html s meta refresh na http://sunamo.cz.
 - Funkční účel (přesměrování) existuje, proto nižší hodnota než u prázdných repo; je to výjimka z pravidla o GitHubu, o smazání rozhoduje uživatel.
+
+## Historie commitů
+
+- První commit: 2014-12-25
+- Poslední commit: 2023-04-15
+- Celkem commitů: 5
+
+- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
