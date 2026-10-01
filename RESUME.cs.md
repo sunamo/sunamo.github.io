@@ -1,15 +1,17 @@
 ---
-schema_version: 5
+schema_version: 6
 type: other
 file_count: 3
-delete_recommendation_percent: 60
-generated_date: 2026-09-30
-generated_time: 16:04:00
-github_origin: no
-github_source_url:
-first_commit_date: 2014-12-25
-last_commit_date: 2023-04-15
-commit_count: 5
+avg_lines_per_file: 19
+move_to_legacy_percent: 60
+generated_date: 2026-10-01
+generated_time: 16:40:53
+github_source_url: 
+last_build_ok: 
+last_build_date: 
+last_tests_run_date: 
+covered_lines: 
+total_lines: 
 ---
 
 ## Description
@@ -22,16 +24,13 @@ Staženo z GitHubu: **ne** — vlastní GitHub Pages repo s pár řádky HTML re
 
 - Ověřeno: index.html přečten celý (meta refresh na sunamo.cz); remote je vlastní git@github.com:sunamo/sunamo.github.io.git, nejde o fork; autor sunamo / radek.jancik@sunamo.cz.
 
-## Doporučení ke smazání
+## Doporučení přesunu do legacy
 
-Doporučení ke smazání: **60 %** — repo jen rezervuje doménu GitHub Pages a přesměrovává na sunamo.cz.
+Doporučení přesunu do sunamocz-legacy.visualstudio.com: **60 %** — repo jen rezervuje doménu GitHub Pages a přesměrovává na sunamo.cz.
 - Jediný obsah je index.html s meta refresh na http://sunamo.cz.
 - Funkční účel (přesměrování) existuje, proto nižší hodnota než u prázdných repo; je to výjimka z pravidla o GitHubu, o smazání rozhoduje uživatel.
 
-## Historie commitů
+## Vazby na moje repa
 
-- První commit: 2014-12-25
-- Poslední commit: 2023-04-15
-- Celkem commitů: 5
-
-- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
+- Submoduly: žádné
+- ProjectReference / PackageReference: žádné
