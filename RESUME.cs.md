@@ -1,17 +1,26 @@
 ---
-schema_version: 7
+schema_version: 11
 type: other
+category_override: none
 file_count: 3
+file_extensions: md:2, noext:2, html:1
+file_extensions_updated: 2026-10-04
 avg_lines_per_file: 19
-move_to_legacy_percent: 60
-generated_date: 2026-10-01
-generated_time: 16:40:53
-github_source_url: 
-last_build_ok: n/a
-last_build_date: n/a
-last_tests_run_date: n/a
-covered_lines: 0
 total_lines: 10
+metrics_lm: 2026-10-01 16:40:53
+move_to_legacy_percent: 60
+description_updated: 2026-10-01
+links_updated: 2026-10-01
+github_source_url: not found
+origin_status: found
+origin_checked: 2026-10-01
+article_source_url: not run
+article_status: pending
+article_checked: not run
+last_build_ok: not run
+last_build_date: not run
+last_tests_run_date: not run
+covered_lines: 0
 ---
 
 ## Description
